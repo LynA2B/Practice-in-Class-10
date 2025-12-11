@@ -19,7 +19,7 @@ on:
       runs-on: ubuntu-latest
       steps:
         - uses: actions/checkout@4
-        - name: Hello
+        - name: Hello World 1
           run: echo "Hello World 1"
           shell: bash
     
@@ -27,7 +27,7 @@ on:
       runs-on: ubuntu-latest
       steps:
         - uses: actions/checkout@4
-        - name: Hello
+        - name: Hello World 2
           run: echo "Hello World 2"
           shell: bash
           
