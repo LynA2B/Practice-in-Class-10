@@ -18,7 +18,7 @@ on:
     hello_world_1:
       runs-on: ubuntu-latest
       steps:
-        - uses: actions/checkout@4
+        - uses: actions/checkout@v4
         - name: Hello World 1
           run: echo "Hello World 1"
           shell: bash
